@@ -109,7 +109,7 @@ export const portfolioData = {
       university: "Vignana Bharathi Junior College",
       duration: "April 2018",
       cgpa: "8.5",
-      logo: "/logos/vignana-college-logo.svg",
+      logo: "/logos/vignana-college-logo.jpg",
     },
     {
       id: 3,
@@ -118,7 +118,7 @@ export const portfolioData = {
       university: "Vignana Bharathi High School",
       duration: "March 2016",
       cgpa: "8.5",
-      logo: "/logos/vignana-school-logo.svg",
+      logo: "/logos/vignana-school-logo.jpg",
     },
   ],
 

@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: "Jagadeesh Kema Portfolio",
     images: [
       {
-        url: "https://jagadeeshkemajk.netlify.app/og-image.svg",
+        url: "https://jagadeeshkemajk.netlify.app/og-image.png",
         width: 1200,
         height: 630,
         alt: "Jagadeesh Kema .NET Developer Portfolio",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Jagadeesh Kema | .NET Developer Portfolio",
     description: "3.9+ Years of Experience • ASP.NET Core • C# • AWS Cloud Services",
-    images: ["https://jagadeeshkemajk.netlify.app/og-image.svg"],
+    images: ["https://jagadeeshkemajk.netlify.app/og-image.png"],
   },
 };
 

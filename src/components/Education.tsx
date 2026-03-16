@@ -1,4 +1,5 @@
 import { portfolioData } from '@/data/portfolioData'
+import Image from 'next/image'
 
 export default function Education() {
   return (
@@ -16,16 +17,18 @@ export default function Education() {
               className='bg-gradient-to-br from-slate-50 to-blue-50 p-6 rounded-lg border border-slate-200 hover:shadow-lg transition-all transform hover:scale-105'
             >
               <div className='flex items-start gap-4'>
-                <div className='p-3 bg-blue-500 text-white rounded-lg'>
-                  <svg className='w-6 h-6' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
-                    <path
-                      strokeLinecap='round'
-                      strokeLinejoin='round'
-                      strokeWidth={2}
-                      d='M12 6.253v13m0-13C6.5 6.253 2 10.998 2 17.25c0 2.149.847 4.195 2.373 5.744C5.898 23.268 8.882 24 12 24s6.102-.732 7.627-2.006c1.526-1.549 2.373-3.595 2.373-5.744 0-6.252-4.5-11-10-11z'
+                {/* Logo */}
+                {edu.logo && (
+                  <div className='flex-shrink-0'>
+                    <img 
+                      src={edu.logo} 
+                      alt={edu.university}
+                      className='w-20 h-20 rounded-lg object-cover'
                     />
-                  </svg>
-                </div>
+                  </div>
+                )}
+                
+                {/* Content */}
                 <div className='flex-1'>
                   <h3 className='text-xl font-bold text-slate-900'>{edu.degree}</h3>
                   <p className='text-blue-600 font-semibold mt-1'>{edu.field}</p>

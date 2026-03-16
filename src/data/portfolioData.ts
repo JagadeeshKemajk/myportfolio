@@ -100,6 +100,7 @@ export const portfolioData = {
       university: "SCSVMV University, Kanchipuram",
       duration: "Apr 2022",
       cgpa: "9.1",
+      logo: "/logos/scsvmv-logo.svg",
     },
     {
       id: 2,
@@ -108,6 +109,7 @@ export const portfolioData = {
       university: "Vignana Bharathi Junior College",
       duration: "April 2018",
       cgpa: "8.5",
+      logo: "/logos/vignana-college-logo.svg",
     },
     {
       id: 3,
@@ -116,6 +118,7 @@ export const portfolioData = {
       university: "Vignana Bharathi High School",
       duration: "March 2016",
       cgpa: "8.5",
+      logo: "/logos/vignana-school-logo.svg",
     },
   ],
 

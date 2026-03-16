@@ -12,7 +12,7 @@ export default function ResumeModal() {
   const handleDownload = () => {
     const link = document.createElement('a')
     link.href = '/resume.pdf'
-    link.download = 'Jagadeesh_Kema_Resume.pdf'
+    link.download = 'Jagadeesh_Kema_DotNet_Resume.pdf'
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)

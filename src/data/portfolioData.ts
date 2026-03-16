@@ -100,7 +100,7 @@ export const portfolioData = {
       university: "SCSVMV University, Kanchipuram",
       duration: "Apr 2022",
       cgpa: "9.1",
-      logo: "/logos/scsvmv-logo.svg",
+      logo: "/logos/scsvmv-logo.jpg",
     },
     {
       id: 2,

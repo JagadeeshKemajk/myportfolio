@@ -133,14 +133,6 @@ The portfolio is fully responsive with breakpoints for:
 - **LinkedIn**: [linkedin.com/in/jagadeeshkema](https://www.linkedin.com/in/jagadeeshkema/)
 - **GitHub**: [github.com/JagadeeshKemajk](https://github.com/JagadeeshKemajk)
 
-## 📜 License
-
-This project is open source and available under the MIT License.
-
-## 🤝 Contributing
-
-Feel free to fork this repository and customize it for your own portfolio!
-
 ---
 
 Made with ❤️ by **Jagadeesh Kema**

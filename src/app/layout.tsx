@@ -18,6 +18,27 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.svg",
   },
+  openGraph: {
+    title: "Jagadeesh Kema | .NET Developer Portfolio",
+    description: "3.9+ Years of Experience • ASP.NET Core • C# • AWS Cloud Services",
+    url: "https://jagadeeshkemajk.netlify.app",
+    siteName: "Jagadeesh Kema Portfolio",
+    images: [
+      {
+        url: "https://jagadeeshkemajk.netlify.app/og-image.svg",
+        width: 1200,
+        height: 630,
+        alt: "Jagadeesh Kema .NET Developer Portfolio",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Jagadeesh Kema | .NET Developer Portfolio",
+    description: "3.9+ Years of Experience • ASP.NET Core • C# • AWS Cloud Services",
+    images: ["https://jagadeeshkemajk.netlify.app/og-image.svg"],
+  },
 };
 
 export default function RootLayout({

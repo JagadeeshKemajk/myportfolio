@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Jagadeesh Kema | .NET Developer Portfolio",
   description: ".NET Developer with 3.9+ years of experience. Skilled in ASP.NET Core, C#, SQL Server, and AWS cloud services.",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
